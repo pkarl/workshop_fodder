@@ -1,0 +1,30 @@
+
+.grid-mod {
+	display: flex;
+	flex-flow: row wrap;
+}
+	.grid-item {
+		width: 8em;
+		height: 8em;
+		padding: 1em;
+		margin: 1em auto 0 auto;
+
+		box-shadow: 0px 0px 5px rgba(0,0,0,0.1);
+	}
+
+	.sample {
+		font-size: 14px;
+		color: #b9b9b9;
+		text-align: center;
+	}
+		.sample em {
+			display: block;
+			color: #000;
+			padding: 0.5em 0;
+		}
+
+	.type {
+		margin: 1em auto;
+		text-align: center;
+		font-style: italic;
+	}

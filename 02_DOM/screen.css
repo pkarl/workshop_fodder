@@ -1,0 +1,58 @@
+.article-mod {
+	padding: 1em 0;
+}
+	.article-mod p {
+		font-size: 14px;
+		margin: 1em 0;
+	}
+
+	.article-mod .popular-stories-mod {
+		float: right;
+		width: 40%;
+	}
+
+.popular-stories-mod {
+	margin: 1em;
+}
+	.popular-stories-mod h3 {
+		border: 1px solid #000;
+		padding: 0.5em;
+		margin-bottom: 0.5em;
+	}
+	.popular-stories-mod ul {
+		list-style: none;
+		margin: 0.25em 0.25em 0.25em 0;
+	}
+		.popular-stories-mod li {
+			padding: 0.15em 0;
+		}
+		.popular-stories-mod li:nth-child(1) {
+			border-left: 3px solid rgba(26, 188, 156,1.0);
+		}
+		.popular-stories-mod li:nth-child(2) {
+			border-left: 3px solid rgba(22, 160, 133,1.0);
+		}
+		.popular-stories-mod li:nth-child(3) {
+			border-left: 3px solid rgba(241, 196, 15,1.0);
+		}
+		.popular-stories-mod li:nth-child(4) {
+			border-left: 3px solid rgba(243, 156, 18,1.0);
+		}
+		.popular-stories-mod li:nth-child(5) {
+			border-left: 3px solid rgba(192, 57, 43,1.0);
+		}
+		.popular-stories-mod li:nth-child(6) {
+			border-left: 3px solid rgba(155, 89, 182,1.0);
+		}
+			.popular-stories-mod a {
+				text-decoration: none;
+				color: inherit;
+				padding: 0.15em 0.15em 0.15em 0.5em;
+				display: block;
+			}
+			.popular-stories-mod a:hover {
+				opacity: 0.5;
+			}
+.ad {
+	margin: 1em;
+}
