@@ -9,3 +9,7 @@ button {
 	font-size: 36px;
 	margin: auto;
 }
+
+button.is-active {
+	background-color: green;
+}
